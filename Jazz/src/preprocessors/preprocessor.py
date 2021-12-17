@@ -73,7 +73,7 @@ class Preprocessor(ABC):
         self._run_label_encoding()
         self._run_standard_scaler()
         
-        # self.encoders.save_encoders()
+        # self.encoders.save_encoders() #TODO: add encoders
 
         print(f"Returning preprocessed {data_type} data")
 

@@ -1,7 +1,7 @@
 
 import unittest
 
-from Jazz.src.data_load.csv_data_loader import CSVDataLoader
+from Jazz.src.preprocessors.titanic_preprocessor import TitanicPreprocessor
 
 
 class TestTitanicPreprocessor(unittest.TestCase):

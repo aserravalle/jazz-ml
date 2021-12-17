@@ -1,6 +1,5 @@
 
 import unittest
-
 import pandas as pd
 
 from Jazz.src.preprocessors.preprocessor import Preprocessor
